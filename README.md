@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/ayubzoel/u-gentle-badger-68-monday-morning-punchlines-709645dc/rank.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
 [![reward](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/ayubzoel/u-gentle-badger-68-monday-morning-punchlines-709645dc/reward.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
 
-One joke about Monday mornings: my bed filed for custody because I keep abandoning it for someone called Work.
+One joke about Monday mornings: the alarm went off, and the bed filed for custody — it says I keep abandoning it for someone called Work.
 
 ## Run it
 

@@ -1,13 +1,15 @@
-// Monday Morning Punchlines — a single joke about Monday mornings.
-// The program prints the punchline and saves it as entry.txt.
+// Monday Morning Punchlines — one joke about Monday mornings.
+// The joke is the entry: the runner prints it and stores it in entry.txt.
 import { mkdirSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
 
-const punchline =
-  "Monday's alarm went off, and my bed filed for custody — it says I keep abandoning it for someone called Work, and honestly, the bed has a case.";
+const firstHalf =
+  "Monday's alarm went off, and my bed filed for custody — ";
+const secondHalf =
+  "it says I keep abandoning it for someone called Work, and honestly, the bed has a case.";
+const joke = firstHalf + secondHalf;
 
-const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "out";
-mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, "entry.txt"), punchline + "\n", "utf8");
-console.log(punchline);
-// 143 code points — gate allows at most 200.
+const outputFolder = process.env.MAKEFUN_OUTPUT_DIR || "out";
+mkdirSync(outputFolder, { recursive: true });
+writeFileSync(`${outputFolder}/entry.txt`, joke + "\n", "utf8");
+console.log(joke);
+// Joke length: 143 code points (limit 200).
